@@ -1,0 +1,98 @@
+/* Imposta stile base */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Stile del contenitore principale */
+.container-xl {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+/* Titolo */
+#title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #1e1518;
+}
+
+/* Stile del contatore */
+#count {
+    font-size: 3rem;
+    color: #333;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+/* Stile per i pulsanti */
+button {
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007BFF;
+    border: 10;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 75px;
+    margin: 0 10px;
+}
+
+/* Stile per il pulsante di decremento (-) */
+button.minus {
+    background-color: #FF6347; /* Rosso per il decremento */
+}
+
+button.minus:hover {
+    background-color: #FF4500;
+}
+
+/* Stile per il pulsante di reset */
+button.reset {
+    background-color: #FFCC00; /* Giallo per reset */
+}
+
+button.reset:hover {
+    background-color: #FFB300;
+}
+
+/* Stile per il pulsante di incremento (+) */
+button.plus {
+    background-color: #28A745; /* Verde per incremento */
+}
+
+button.plus:hover {
+    background-color: #218838;
+}
+
+/* Spaziatori */
+.spacer-sx {
+    height: 20px;
+}
+
+/* Layout flessibile */
+.container.social-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.gap-sm {
+    gap: 10px;
+}
